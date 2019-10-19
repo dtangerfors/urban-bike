@@ -1,0 +1,23 @@
+{
+  "name": "urban-bike",
+  "version": "1.0.0",
+  "description": "School project – a website focusing on finding the right bicycle for you",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtangerfors/urban-bike.git"
+  },
+  "author": "Daniel Tängerfors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtangerfors/urban-bike/issues"
+  },
+  "homepage": "https://github.com/dtangerfors/urban-bike#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
