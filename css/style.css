@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*
+0 - 600px:              Phone 
+600 - 900px:            Tablet portrait
+900 - 1200px:           Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px +:               Big desktop
+*/
+/* $breakpoint argument choices:
+– phone
+– tab-port
+– tab-land
+– big-desktop
+*/
+*, *::after, *::before {
+  transition: all .3s ease-in; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400; }
+
+.heading-primary {
+  font-size: 7.5rem;
+  font-weight: 400;
+  line-height: 1.2; }
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.2; }
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2; }
+
+.links {
+  color: #000;
+  text-decoration: none; }
+  .links--paragraph {
+    color: inherit;
+    text-decoration: underline; }
+    .links--paragraph:hover {
+      color: #e6e6e6; }
+
+.product-card {
+  width: 38rem;
+  margin: 0 1rem 3rem;
+  background-color: #fff;
+  border: 1px solid black;
+  font-size: 1.3rem;
+  font-weight: 400; }
+  .product-card__image {
+    width: 100%;
+    padding: 8rem 1rem 2rem; }
+  .product-card__details {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid black; }
+  .product-card__title {
+    width: 100%;
+    padding: 1.3rem;
+    border-bottom: 1px solid black; }
+  .product-card__info {
+    padding: 1.3rem;
+    text-align: center; }
+    .product-card__info--gears {
+      width: 20%; }
+    .product-card__info--price {
+      width: 40%; }
+      .product-card__info--price::before {
+        content: "\0024"; }
+    .product-card__info--view {
+      color: #000;
+      text-decoration: none;
+      width: 40%; }
+      .product-card__info--view:hover {
+        background-color: #000;
+        color: #fff; }
+      .product-card__info--view::after {
+        content: "\2192";
+        margin-left: .5rem; }
+      .product-card__info--view:hover::after {
+        margin-left: 1.5rem; }
+    .product-card__info--italic {
+      font-style: italic; }
+    .product-card__info:not(:last-child) {
+      border-right: 1px solid black; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid black; }
+  .footer__col {
+    width: 33%;
+    padding: 5rem 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer .heading-tertiary {
+    margin-bottom: 2rem; }
+  .footer__social-icons-group {
+    display: flex;
+    flex-direction: row; }
+  .footer__social-icons {
+    width: 2.5rem;
+    margin: 0 1rem;
+    cursor: pointer; }
+    .footer__social-icons:hover {
+      opacity: .5; }
+  .footer__info {
+    width: 100%;
+    padding: 3rem 5rem;
+    text-align: center;
+    border-top: 1px solid black; }
+
+.nav {
+  height: 7rem;
+  width: 100%;
+  top: 0;
+  padding: 0 3rem;
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .nav__logo {
+    height: 3rem;
+    margin: auto 0; }
+  .nav__link-group {
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  .nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    height: 7rem;
+    width: 15rem;
+    padding: 0 2rem;
+    color: #000; }
+    .nav__link:hover {
+      background-color: #000;
+      color: #fff; }
+    .nav__link:not(:last-child) {
+      border-right: 1px solid black; }
+  .nav__link-href {
+    text-decoration: none;
+    color: inherit; }
+
+.index-header {
+  height: 50rem;
+  margin-top: 5rem;
+  background-image: url("../assets/img/urban-bike-bg-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .index-header__heading {
+    margin-left: 10rem; }
+
+.index-main-content {
+  max-width: 120rem;
+  margin: 5rem auto 0; }
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap; }
