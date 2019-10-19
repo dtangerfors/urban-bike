@@ -1,0 +1,67 @@
+.product-card {
+    width: 38rem;
+    margin: 0 1rem 3rem;
+
+    background-color: $white;
+    border: $border-black;
+
+    font-size: $default-font-size;
+    font-weight: 400;
+
+    &__image {
+        width: 100%;
+        padding: 8rem 1rem 2rem;
+    }
+
+    &__details {
+        display: flex;
+        flex-flow: row wrap;
+        border-top: $border-black;
+    }
+
+    &__title {
+        width: 100%;
+        padding: 1.3rem;
+        border-bottom: $border-black;
+    }
+
+    &__info {
+        padding: 1.3rem;
+        text-align: center;
+
+        &--gears {
+            width: 20%;
+        }
+
+        &--price {
+            width: 40%;
+
+            &::before {
+                content: "\0024";
+            }
+        }
+
+        &--view {
+            @include hoverFieldLink;
+
+            width: 40%;
+
+            &::after {
+                content: "\2192";
+                margin-left: .5rem;
+            }
+
+            &:hover::after {
+                margin-left: 1.5rem;
+            }
+        }
+
+        &--italic {
+            font-style: italic;
+        }
+
+        &:not(:last-child) {
+            border-right: $border-black;
+        }
+    }
+}

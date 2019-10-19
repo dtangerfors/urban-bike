@@ -1,0 +1,25 @@
+.index-header {
+    height: 50rem;
+    margin-top: 5rem;
+
+    background-image: url("../assets/img/urban-bike-bg-header.jpg");
+    background-position: center bottom;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    &__heading {
+        margin-left: 10rem;
+    }
+}
+
+.index-main-content {
+    max-width: 120rem;
+    margin: 5rem auto 0;
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+}

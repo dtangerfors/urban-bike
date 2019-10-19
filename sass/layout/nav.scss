@@ -1,0 +1,52 @@
+.nav {
+    height: 7rem;
+    width: 100%;
+
+    top: 0;
+    padding: 0 3rem;
+    position: fixed;
+
+    background-color: $white;
+    border-bottom: $border-black;
+
+    font-size: $default-font-size;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        height: 3rem;
+        margin: auto 0;
+    }
+
+    &__link-group {
+        display: flex;
+        flex-direction: row;
+        border-left: $border-black;
+        border-right: $border-black;
+    }
+
+    &__link {
+        @include flexcenter;
+
+        @include hoverFieldLink;
+
+        height: 7rem;
+        width: 15rem;
+        padding: 0 2rem;
+
+        color: $black;
+
+        &:not(:last-child) {
+            border-right: $border-black;
+        }
+
+    }
+
+    &__link-href {
+        text-decoration: none;
+        color: inherit;
+    }
+}
