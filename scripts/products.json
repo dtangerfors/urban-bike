@@ -17,7 +17,7 @@
         "size": 28,
         "gender": "male",
         "usage": "commute",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no1-men-black.jpg"
     },
@@ -61,7 +61,7 @@
         "size": 28,
         "gender": "female",
         "usage": "commute",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no1-women-albino.jpg"
     },
@@ -83,7 +83,7 @@
         "size": 28,
         "gender": "female",
         "usage": "commute",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no1-women-black.jpg"
     },
@@ -228,7 +228,7 @@
         "usage": "commute",
         "gears": 3,
         "type": "electric",
-        "img": "/assets/img/products/urban-bike-no3-electric-black.jpg"
+        "img": "/assets/img/products/urban-bike-no3-unisex-electric-black.jpg"
     },
     {
         "name": "Urban Bike No 3",
@@ -259,7 +259,7 @@
         "size": 28,
         "gender": "male",
         "usage": "sport",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no4-men-black.jpg"
     },
@@ -270,7 +270,7 @@
         "size": 28,
         "gender": "male",
         "usage": "sport",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no4-men-mint-bullhorn.jpg"
     },
@@ -281,7 +281,7 @@
         "size": 28,
         "gender": "male",
         "usage": "sport",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no4-men-mint.jpg"
     },
@@ -292,7 +292,7 @@
         "size": 28,
         "gender": "male",
         "usage": "sport",
-        "gears": false,
+        "gears": 0,
         "type": "classic",
         "img": "/assets/img/products/urban-bike-no4-men-orange.jpg"
     },
