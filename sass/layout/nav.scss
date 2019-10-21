@@ -5,6 +5,7 @@
     top: 0;
     padding: 0 3rem;
     position: fixed;
+    z-index: 2;
 
     background-color: $white;
     border-bottom: $border-black;
@@ -15,6 +16,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    &__logo-group {
+        width: 20%;
+    }
 
     &__logo {
         height: 3rem;
@@ -48,5 +53,18 @@
     &__link-href {
         text-decoration: none;
         color: inherit;
+    }
+
+    &__cart {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__icon {
+        width: $default-font-size;
+        margin-right: .5rem;
     }
 }

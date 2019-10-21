@@ -8,9 +8,22 @@
     font-size: $default-font-size;
     font-weight: 400;
 
+    &__image-box {
+        display: flex;
+        justify-content: flex-end;
+
+        height: 38rem;
+        padding: 0 1rem 3rem;
+    }
+
     &__image {
+        align-self: flex-end;
+        
         width: 100%;
-        padding: 8rem 1rem 2rem;
+
+        &:hover {
+        transform: scale(1.05);
+    }
     }
 
     &__details {
@@ -23,6 +36,8 @@
         width: 100%;
         padding: 1.3rem;
         border-bottom: $border-black;
+
+        text-transform: capitalize;
     }
 
     &__info {
@@ -33,11 +48,17 @@
             width: 20%;
         }
 
+        &--icon {
+            width: 1rem;
+            margin-right: .5rem;
+        }
+
         &--price {
             width: 40%;
 
             &::before {
                 content: "\0024";
+                margin-right: .5rem;
             }
         }
 
