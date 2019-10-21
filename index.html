@@ -11,11 +11,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i&display=swap" rel="stylesheet">
 
+    <!-- Javascript files -->
+
+    <script src="scripts/loadProducts.js"></script>
+
 </head>
 
 <body>
     <nav class="nav">
-        <img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo">
+        <div class="nav__logo-group">
+            <img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo">
+        </div>
         <div class="nav__link-group">
             <div class="nav__link">
                 <a href="#" class="nav__link-href">Bike Selector</a>
@@ -27,7 +33,10 @@
                 <a href="#" class="nav__link-href">Contact</a>
             </div>
         </div>
-        <div class="nav__cart">Cart</div>
+        <div class="nav__cart">
+            <img src="assets/img/icons/shopping-cart-solid.svg" alt="Shopping Cart" class="nav__icon">
+            <p>Cart</p>
+        </div>
     </nav>
     <header class="index-header">
         <div class="index-header__heading">
@@ -36,60 +45,7 @@
         </div>
     </header>
     <main class="index-main-content">
-        <section class="product-section" id="index-products">
-            <article class="product-card">
-                <img src="assets/img/products/urban-bike-no1-men-black.jpg" alt="Urban Bike No 1"
-                    class="product-card__image">
-                <div class="product-card__details">
-                    <h4 class="product-card__title">Urban bike No 1</h4>
-                    <p class="product-card__info product-card__info--gears">Gears</p>
-                    <p class="product-card__info product-card__info--price">540</p>
-                    <a href="#" class="product-card__info product-card__info--view product-card__info--italic">See
-                        more</a>
-                </div>
-
-                </details>
-            </article>
-            <article class="product-card">
-                <img src="assets/img/products/urban-bike-no1-men-black.jpg" alt="Urban Bike No 1"
-                    class="product-card__image">
-                <div class="product-card__details">
-                    <h4 class="product-card__title">Urban bike No 1</h4>
-                    <p class="product-card__info product-card__info--gears">Gears</p>
-                    <p class="product-card__info product-card__info--price">540</p>
-                    <a href="#" class="product-card__info product-card__info--view product-card__info--italic">See
-                        more</a>
-                </div>
-
-                </details>
-            </article>
-            <article class="product-card">
-                <img src="assets/img/products/urban-bike-no1-men-black.jpg" alt="Urban Bike No 1"
-                    class="product-card__image">
-                <div class="product-card__details">
-                    <h4 class="product-card__title">Urban bike No 2</h4>
-                    <p class="product-card__info product-card__info--gears">Gears</p>
-                    <p class="product-card__info product-card__info--price">540</p>
-                    <a href="#" class="product-card__info product-card__info--view product-card__info--italic">See
-                        more</a>
-                </div>
-
-                </details>
-            </article>
-            <article class="product-card">
-                <img src="assets/img/products/urban-bike-no1-men-black.jpg" alt="Urban Bike No 1"
-                    class="product-card__image">
-                <div class="product-card__details">
-                    <h4 class="product-card__title">Urban bike No 3</h4>
-                    <p class="product-card__info product-card__info--gears">Gears</p>
-                    <p class="product-card__info product-card__info--price">540</p>
-                    <a href="#" class="product-card__info product-card__info--view product-card__info--italic">See
-                        more</a>
-                </div>
-
-                </details>
-            </article>
-        </section>
+        <section class="product-section" id="index-products"></section>
     </main>
 
     <footer class="footer">
@@ -108,7 +64,8 @@
         <div class="footer__credits footer__col">
             <h3 class="heading-tertiary">Credits</h3>
             <p>Imagery on this site from <a href="https://stalhasten.se" class="links--paragraph">Stålhästen</a>, <a
-                    href="https://unsplash.com" class="links--paragraph">Unsplash</a></p>
+                    href="https://unsplash.com" class="links--paragraph">Unsplash</a>.</p>
+            <p>Icons from <a href="https://fontawesome.com/license" class="links--paragraph">Font Awesome</a>.</p>
         </div>
         <div class="footer__info">
             <p>School project made by Daniel Tängerfors. This site is not<br>endorsed, nor affliated by any of the
