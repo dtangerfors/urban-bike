@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Urban Bike Shop</title>
 
+    <link rel="icon" href="assets/img/urban-bike-favicon.svg" sizes="any" type="image/svg+xml">
+
     <!-- Import CSS and fonts -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i&display=swap" rel="stylesheet">
@@ -20,11 +22,11 @@
 <body>
     <nav class="nav">
         <div class="nav__logo-group">
-            <img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo">
+            <a href="index.html"><img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo"></a>
         </div>
         <div class="nav__link-group">
             <div class="nav__link">
-                <a href="#" class="nav__link-href">Bike Selector</a>
+                <a href="bike-selector.html" class="nav__link-href">Bike Selector</a>
             </div>
             <div class="nav__link">
                 <a href="#" class="nav__link-href">About us</a>
@@ -45,7 +47,10 @@
         </div>
     </header>
     <main class="index-main-content">
-        <section class="product-section" id="index-products"></section>
+        <section class="product-section">
+            <h2 class="heading-secondary">All of our bikes</h2>
+            <div class="product-section__wrapper" id="index-products"></div>
+        </section>
     </main>
 
     <footer class="footer">
