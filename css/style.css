@@ -15,8 +15,17 @@
 *, *::after, *::before {
   transition: all .3s ease-in; }
 
+@keyframes moveBackForth {
+  0% {
+    margin-left: .5rem; }
+  50% {
+    margin-left: 1.5rem; }
+  100% {
+    margin-left: .5rem; } }
+
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -60,6 +69,48 @@ body {
     .links--paragraph:hover {
       color: #e6e6e6; }
 
+.btn-open {
+  font-size: 2rem;
+  font-style: italic;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  width: fit-content;
+  padding: .5rem 1rem;
+  margin-top: 5rem; }
+  .btn-open::after {
+    content: "\2192";
+    margin-left: .5rem; }
+  .btn-open:hover::after {
+    animation: moveBackForth 1s ease infinite; }
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black; }
+
+.btn-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  height: 5rem;
+  min-width: 10rem;
+  padding: 0 2rem;
+  color: #000;
+  text-decoration: none; }
+  .btn-question:hover {
+    background-color: #000;
+    color: #fff; }
+  .btn-question:not(:last-child) {
+    border-right: 1px solid black; }
+  .btn-question--input {
+    -webkit-appearance: none;
+    border: none;
+    font-family: inherit;
+    cursor: pointer; }
+
 .product-card {
   width: 38rem;
   margin: 0 1rem 3rem;
@@ -100,8 +151,8 @@ body {
         content: "\0024";
         margin-right: .5rem; }
     .product-card__info--view {
-      color: #000;
       text-decoration: none;
+      color: #000;
       width: 40%; }
       .product-card__info--view:hover {
         background-color: #000;
@@ -174,17 +225,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000;
     text-decoration: none;
+    color: #000;
     height: 7rem;
     width: 15rem;
-    padding: 0 2rem;
-    color: #000; }
+    padding: 0 2rem; }
     .nav__link:hover {
       background-color: #000;
       color: #fff; }
     .nav__link:not(:last-child) {
       border-right: 1px solid black; }
+    .nav__link--active {
+      background-color: #e6e6e6;
+      border-bottom: 1px solid black; }
   .nav__link-href {
     text-decoration: none;
     color: inherit; }
@@ -198,9 +251,51 @@ body {
     width: 1.3rem;
     margin-right: .5rem; }
 
+.bike-selector-header {
+  height: calc(100vh - 7rem);
+  margin-top: 7rem;
+  background-image: url("../assets/img/urban-bike-bg-bike_selector.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .bike-selector-header__heading-box {
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column; }
+  .bike-selector-header__heading {
+    background-color: #fff;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    width: fit-content; }
+  .bike-selector-header__paragraph {
+    background-color: #fff;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    width: fit-content;
+    font-size: 2rem; }
+
+.bike-form__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: calc(100vh - 7rem);
+  margin-top: 7rem; }
+
+.bike-form fieldset {
+  border: none; }
+
+.bike-form__label {
+  font-size: 2rem;
+  margin-left: .5rem; }
+  .bike-form__label:not(:last-child) {
+    margin-right: 2rem; }
+
 .index-header {
   height: 50rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   background-image: url("../assets/img/urban-bike-bg-header.jpg");
   background-position: center bottom;
   background-size: cover;
@@ -215,4 +310,9 @@ body {
 
 .product-section {
   display: flex;
-  flex-wrap: wrap; }
+  flex-direction: column;
+  align-items: center; }
+  .product-section__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto 0; }
