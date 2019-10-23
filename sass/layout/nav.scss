@@ -42,10 +42,13 @@
         width: 15rem;
         padding: 0 2rem;
 
-        color: $black;
-
         &:not(:last-child) {
             border-right: $border-black;
+        }
+
+        &--active {
+            background-color: $grey;
+            border-bottom: $border-black;
         }
 
     }

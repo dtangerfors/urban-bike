@@ -7,12 +7,14 @@
 @import "base/reset";
 @import "base/typography";
 
+@import "components/buttons";
 @import "components/product-card";
 
 @import "layout/footer";
 @import "layout/nav";
 
 @import "pages/about";
+@import "pages/bike-selector";
 @import "pages/contact";
 @import "pages/index";
 

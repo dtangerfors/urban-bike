@@ -1,3 +1,9 @@
 *, *::after, *::before {
     transition: all .3s ease-in;
 }
+
+@keyframes moveBackForth {
+    0%      {margin-left: .5rem;}
+    50%     {margin-left: 1.5rem;}
+    100%    {margin-left: .5rem;}
+}

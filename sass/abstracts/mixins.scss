@@ -44,9 +44,10 @@
 // Mixins for links 
 
 @mixin hoverFieldLink {
-    color: $black;
-    text-decoration: none;
 
+    text-decoration: none;
+    color: $black;
+    
     &:hover {
             background-color: $black;
             color: $white;

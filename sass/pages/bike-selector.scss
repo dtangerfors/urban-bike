@@ -1,0 +1,56 @@
+.bike-selector-header {
+    height: calc(100vh - 7rem);
+    margin-top: 7rem;
+
+    background-image: url("../assets/img/urban-bike-bg-bike_selector.jpg");
+    background-position: center bottom;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    &__heading-box {
+        margin-left: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading {
+        background-color: $white;
+        padding: .5rem 1rem;
+        margin-bottom: .5rem;
+        width: fit-content;
+    }
+
+    &__paragraph {
+        background-color: $white;
+        padding: .5rem 1rem;
+        margin-bottom: .5rem;
+        width: fit-content;
+        font-size: 2rem;
+    }
+
+}
+
+.bike-form {
+    &__section {
+        @include flexcenter;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: calc(100vh - 7rem);
+        margin-top: 7rem;
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    &__label {
+        font-size: 2rem;
+        margin-left: .5rem;
+
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+}
