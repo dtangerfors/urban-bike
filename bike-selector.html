@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urban Bike Shop | Bike Selector – find your perfect bike</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/urban-bike-favicon.svg" sizes="any" type="image/svg+xml">
+
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__logo-group">
+            <a href="index.html"><img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo"></a>
+        </div>
+        <div class="nav__link-group">
+            <div class="nav__link nav__link--active">
+                <a href="bike-selector.html" class="nav__link-href">Bike Selector</a>
+            </div>
+            <div class="nav__link">
+                <a href="#" class="nav__link-href">About us</a>
+            </div>
+            <div class="nav__link">
+                <a href="#" class="nav__link-href">Contact</a>
+            </div>
+        </div>
+        <div class="nav__cart">
+            <img src="assets/img/icons/shopping-cart-solid.svg" alt="Shopping Cart" class="nav__icon">
+            <p>Cart</p>
+        </div>
+    </nav>
+
+    <header class="bike-selector-header">
+        <div class="bike-selector-header__heading-box">
+            <h1 class="heading-primary">
+                <div class="bike-selector-header__heading">Let's find</div>
+                <div class="bike-selector-header__heading">your new bike!</div>
+            </h1>
+            <p class="bike-selector-header__paragraph">Not sure what bike you need?</p>
+            <p class="bike-selector-header__paragraph">With this easy tool we'll find your
+                perfect bike.</p>
+            <a href="#bike-selector-content" class="btn-open">Start</a>
+        </div>
+    </header>
+
+    <main class="bike-selector-content" id="bike-selector-content">
+        <form action="#" class="bike-form" name="bikeSelector">
+            <section class="bike-form__section" id="bike-gender">
+                <h2 class="heading-secondary">First up – who's using the bike?</h2>
+                <fieldset>
+                    <input type="radio" name="bike-gender" id="bike-gender-male" value="male"
+                        class="bike-form__input-radio">
+                    <label for="bike-gender-male" class="bike-form__label">A man</label>
+                    <input type="radio" name="bike-gender" id="bike-gender-female" value="female"
+                        class="bike-form__input-radio">
+                    <label for="bike-gender-female" class="bike-form__label">A lady</label>
+                </fieldset>
+                <div class="btn-group">
+                    <a href="#bike-usage" class="btn-question btn-question--next">Next</a>
+                </div>
+            </section>
+            <section class="bike-form__section" id="bike-usage">
+                <h2 class="heading-secondary">How will you use the bike?</h2>
+                <fieldset>
+                    <input type="radio" name="bike-usage" id="bike-usage-commute" value="commute"
+                        class="bike-form__input-radio">
+                    <label for="bike-usage-commute" class="bike-form__label">Commute</label>
+                    <input type="radio" name="bike-usage" id="bike-usage-shortTrips" value="short trips"
+                        class="bike-form__input-radio">
+                    <label for="bike-usage-shortTrips" class="bike-form__label">Short trips</label>
+                    <input type="radio" name="bike-usage" id="bike-usage-adventures" value="adventures"
+                        class="bike-form__input-radio">
+                    <label for="bike-usage-adventures" class="bike-form__label">Adventures</label>
+                </fieldset>
+                <div class="btn-group">
+                    <a href="#bike-gender" class="btn-question btn-question--prev">Previous</a><a href="#bike-place"
+                        class="btn-question btn-question--next">Next</a>
+                </div>
+            </section>
+            <section class="bike-form__section" id="bike-place">
+                <h2 class="heading-secondary">Where do you plan to use your bike?</h2>
+                <fieldset>
+                    <input type="radio" name="bike-place" id="bike-place-city" value="city"
+                        class="bike-form__input-radio">
+                    <label for="bike-place-city" class="bike-form__label">City</label>
+                    <input type="radio" name="bike-place" id="bike-place-nature" value="nature"
+                        class="bike-form__input-radio">
+                    <label for="bike-place-nature" class="bike-form__label">Nature</label>
+                    <input type="radio" name="bike-place" id="bike-place-both" value="both"
+                        class="bike-form__input-radio">
+                    <label for="bike-place-both" class="bike-form__label">Both</label>
+                </fieldset>
+                <div class="btn-group">
+                    <a href="#bike-usage" class="btn-question btn-question--prev">Previous</a><a href="#bike-style"
+                        class="btn-question btn-question--next">Next</a>
+                </div>
+            </section>
+            <section class="bike-form__section" id="bike-style">
+                <h2 class="heading-secondary">Lastly – what kind of style do you prefer?</h2>
+                <fieldset>
+                    <input type="radio" name="bike-style" id="bike-style-classic" value="classic"
+                        class="bike-form__input-radio">
+                    <label for="bike-style-classic" class="bike-form__label">Classic</label>
+                    <input type="radio" name="bike-style" id="bike-style-sporty" value="sporty"
+                        class="bike-form__input-radio">
+                    <label for="bike-style-sporty" class="bike-form__label">Sporty</label>
+                    <input type="radio" name="bike-style" id="bike-style-hybrid" value="hybrid"
+                        class="bike-form__input-radio">
+                    <label for="bike-style-hybrid" class="bike-form__label">Hybrid</label>
+                </fieldset>
+                <div class="btn-group">
+                    <a href="#bike-place" class="btn-question btn-question--prev">Previous</a><input type="submit"
+                        value="Find your bike!" class="btn-question btn-question--next btn-question--input">
+                </div>
+            </section>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__about footer__col">
+            <h3 class="heading-tertiary">About</h3>
+        </div>
+        <div class="footer__social footer__col">
+            <h3 class="heading-tertiary">Social</h3>
+            <div class="footer__social-icons-group">
+                <img src="assets/img/icons/facebook-brands.svg" alt="Facebook" class="footer__social-icons">
+                <img src="assets/img/icons/pinterest-brands.svg" alt="Pinterest" class="footer__social-icons">
+                <img src="assets/img/icons/snapchat-brands.svg" alt="Snapchat" class="footer__social-icons">
+            </div>
+
+        </div>
+        <div class="footer__credits footer__col">
+            <h3 class="heading-tertiary">Credits</h3>
+            <p>Imagery on this site from <a href="https://stalhasten.se" class="links--paragraph">Stålhästen</a>, <a
+                    href="https://unsplash.com" class="links--paragraph">Unsplash</a>.</p>
+            <p>Icons from <a href="https://fontawesome.com/license" class="links--paragraph">Font Awesome</a>.</p>
+        </div>
+        <div class="footer__info">
+            <p>School project made by Daniel Tängerfors. This site is not<br>endorsed, nor affliated by any of the
+                credited ventures above.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Javascript files -->
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
