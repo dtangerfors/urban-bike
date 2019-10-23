@@ -1,7 +1,6 @@
-/* const productSection = document.querySelector("#index-products"); */
-
 const url = "http://127.0.0.1:5500/scripts/products.json";
 
+// Template for products
 function articleTemplate(article) {
     return `
         <article class="product-card">
@@ -19,7 +18,7 @@ function articleTemplate(article) {
     `
 }
 
-
+// Get data from URL and map them to articleTemplate
 fetch(url)
     .then((resp) => resp.json()) // Transform the data into json
     .then(function (data) {
