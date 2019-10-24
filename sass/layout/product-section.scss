@@ -1,0 +1,12 @@
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin: 5rem auto 0;
+    }
+}
