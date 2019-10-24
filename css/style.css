@@ -251,6 +251,15 @@ body {
     width: 1.3rem;
     margin-right: .5rem; }
 
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .product-section__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto 0; }
+
 .bike-selector-header {
   height: calc(100vh - 7rem);
   margin-top: 7rem;
@@ -307,12 +316,3 @@ body {
 .index-main-content {
   max-width: 120rem;
   margin: 5rem auto 0; }
-
-.product-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .product-section__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5rem auto 0; }
