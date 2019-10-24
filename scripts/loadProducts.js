@@ -20,9 +20,9 @@ function articleTemplate(article) {
 
 // Get data from URL and map them to articleTemplate
 fetch(url)
-    .then((resp) => resp.json()) // Transform the data into json
+    .then((resp) => resp.json()) // Transform the responsed data into json
     .then(function (data) {
-        let articles = data;
+        let articles = data.products;
         return document.querySelector("#index-products").innerHTML = articles.map(articleTemplate).join("")
     })
 
