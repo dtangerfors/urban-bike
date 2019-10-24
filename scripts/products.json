@@ -1,313 +1,315 @@
-[
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "black",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-men-black-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 360,
-        "color": "black",
-        "size": 28,
-        "gender": "male",
-        "usage": "short trips",
-        "gears": 0,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-men-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "green",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-men-green-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "grey",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-men-grey-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 460,
-        "color": "albino",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-albino-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 360,
-        "color": "albino",
-        "size": 28,
-        "gender": "female",
-        "usage": "short trips",
-        "gears": 0,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-albino.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "black",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-black-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 360,
-        "color": "black",
-        "size": 28,
-        "gender": "female",
-        "usage": "short trips",
-        "gears": 0,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "green",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-green-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "grey",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-grey-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 460,
-        "color": "pastel blue",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-pastel_blue-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 460,
-        "color": "pastel mint",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-pastel_mint-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 460,
-        "color": "pastel pink",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-pastel_pink-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 460,
-        "color": "pastel yellow",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-pastel_yellow-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 1",
-        "price": 450,
-        "color": "red",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no1-women-red-3vxl.jpg"
-    },
-    {
-        "name": "Urban Bike No 2",
-        "price": 570,
-        "color": "black",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 8,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no2-men-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 2",
-        "price": 570,
-        "color": "cream",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 8,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no2-men-cream.jpg"
-    },
-    {
-        "name": "Urban Bike No 2",
-        "price": 550,
-        "color": "black",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no2-women-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 2",
-        "price": 550,
-        "color": "cream",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no2-women-cream.jpg"
-    },
-    {
-        "name": "Urban Bike No 3",
-        "price": 600,
-        "color": "black",
-        "size": 28,
-        "gender": "male",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no3-men-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 3",
-        "price": 1400,
-        "color": "black",
-        "size": 28,
-        "gender": "unisex",
-        "usage": "commute",
-        "gears": 3,
-        "type": "electric",
-        "img": "/assets/img/products/urban-bike-no3-unisex-electric-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 3",
-        "price": 600,
-        "color": "black",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no3-women-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 3",
-        "price": 600,
-        "color": "cream",
-        "size": 28,
-        "gender": "female",
-        "usage": "commute",
-        "gears": 3,
-        "type": "classic",
-        "img": "/assets/img/products/urban-bike-no3-women-cream.jpg"
-    },
-    {
-        "name": "Urban Bike No 4",
-        "price": 450,
-        "color": "black",
-        "size": 28,
-        "gender": "male",
-        "usage": "sport",
-        "gears": 0,
-        "type": "sporty",
-        "img": "/assets/img/products/urban-bike-no4-men-black.jpg"
-    },
-    {
-        "name": "Urban Bike No 4 Bullhorn",
-        "price": 450,
-        "color": "mint",
-        "size": 28,
-        "gender": "male",
-        "usage": "sport",
-        "gears": 0,
-        "type": "sporty",
-        "img": "/assets/img/products/urban-bike-no4-men-mint-bullhorn.jpg"
-    },
-    {
-        "name": "Urban Bike No 4",
-        "price": 450,
-        "color": "mint",
-        "size": 28,
-        "gender": "male",
-        "usage": "sport",
-        "gears": 0,
-        "type": "sporty",
-        "img": "/assets/img/products/urban-bike-no4-men-mint.jpg"
-    },
-    {
-        "name": "Urban Bike No 4",
-        "price": 450,
-        "color": "orange",
-        "size": 28,
-        "gender": "male",
-        "usage": "sport",
-        "gears": 0,
-        "type": "sporty",
-        "img": "/assets/img/products/urban-bike-no4-men-orange.jpg"
-    },
-    {
-        "name": "Urban Bike No 5",
-        "price": 850,
-        "color": "grey",
-        "size": 28,
-        "gender": "male",
-        "usage": [
-            "commute",
-            "sport"
-        ],
-        "gears": 21,
-        "type": "hybrid",
-        "img": "/assets/img/products/urban-bike-no5-men-grey.jpg"
-    }
-]
+{
+    "products": [
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "black",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-men-black-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 360,
+            "color": "black",
+            "size": 28,
+            "gender": "male",
+            "usage": "short trips",
+            "gears": 0,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-men-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "green",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-men-green-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "grey",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-men-grey-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 460,
+            "color": "albino",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-albino-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 360,
+            "color": "albino",
+            "size": 28,
+            "gender": "female",
+            "usage": "short trips",
+            "gears": 0,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-albino.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "black",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-black-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 360,
+            "color": "black",
+            "size": 28,
+            "gender": "female",
+            "usage": "short trips",
+            "gears": 0,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "green",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-green-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "grey",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-grey-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 460,
+            "color": "pastel blue",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-pastel_blue-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 460,
+            "color": "pastel mint",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-pastel_mint-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 460,
+            "color": "pastel pink",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-pastel_pink-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 460,
+            "color": "pastel yellow",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-pastel_yellow-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 1",
+            "price": 450,
+            "color": "red",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no1-women-red-3vxl.jpg"
+        },
+        {
+            "name": "Urban Bike No 2",
+            "price": 570,
+            "color": "black",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 8,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no2-men-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 2",
+            "price": 570,
+            "color": "cream",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 8,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no2-men-cream.jpg"
+        },
+        {
+            "name": "Urban Bike No 2",
+            "price": 550,
+            "color": "black",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no2-women-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 2",
+            "price": 550,
+            "color": "cream",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no2-women-cream.jpg"
+        },
+        {
+            "name": "Urban Bike No 3",
+            "price": 600,
+            "color": "black",
+            "size": 28,
+            "gender": "male",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no3-men-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 3",
+            "price": 1400,
+            "color": "black",
+            "size": 28,
+            "gender": "unisex",
+            "usage": "commute",
+            "gears": 3,
+            "type": "electric",
+            "img": "/assets/img/products/urban-bike-no3-unisex-electric-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 3",
+            "price": 600,
+            "color": "black",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no3-women-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 3",
+            "price": 600,
+            "color": "cream",
+            "size": 28,
+            "gender": "female",
+            "usage": "commute",
+            "gears": 3,
+            "type": "classic",
+            "img": "/assets/img/products/urban-bike-no3-women-cream.jpg"
+        },
+        {
+            "name": "Urban Bike No 4",
+            "price": 450,
+            "color": "black",
+            "size": 28,
+            "gender": "male",
+            "usage": "sport",
+            "gears": 0,
+            "type": "sporty",
+            "img": "/assets/img/products/urban-bike-no4-men-black.jpg"
+        },
+        {
+            "name": "Urban Bike No 4 Bullhorn",
+            "price": 450,
+            "color": "mint",
+            "size": 28,
+            "gender": "male",
+            "usage": "sport",
+            "gears": 0,
+            "type": "sporty",
+            "img": "/assets/img/products/urban-bike-no4-men-mint-bullhorn.jpg"
+        },
+        {
+            "name": "Urban Bike No 4",
+            "price": 450,
+            "color": "mint",
+            "size": 28,
+            "gender": "male",
+            "usage": "sport",
+            "gears": 0,
+            "type": "sporty",
+            "img": "/assets/img/products/urban-bike-no4-men-mint.jpg"
+        },
+        {
+            "name": "Urban Bike No 4",
+            "price": 450,
+            "color": "orange",
+            "size": 28,
+            "gender": "male",
+            "usage": "sport",
+            "gears": 0,
+            "type": "sporty",
+            "img": "/assets/img/products/urban-bike-no4-men-orange.jpg"
+        },
+        {
+            "name": "Urban Bike No 5",
+            "price": 850,
+            "color": "grey",
+            "size": 28,
+            "gender": "male",
+            "usage": [
+                "commute",
+                "sport"
+            ],
+            "gears": 21,
+            "type": "hybrid",
+            "img": "/assets/img/products/urban-bike-no5-men-grey.jpg"
+        }
+    ]
+}
