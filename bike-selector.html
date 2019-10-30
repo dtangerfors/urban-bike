@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv-se">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,16 +18,13 @@
         <div class="nav__logo-group">
             <a href="index.html"><img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo"></a>
         </div>
+        <div class="nav__hamburger" id="mobile-menu">
+            <div class="nav__hamburger-inner"></div>
+        </div>
         <div class="nav__link-group">
-            <div class="nav__link nav__link--active">
-                <a href="bike-selector.html" class="nav__link-href">Bike Selector</a>
-            </div>
-            <div class="nav__link">
-                <a href="#" class="nav__link-href">About us</a>
-            </div>
-            <div class="nav__link">
-                <a href="#" class="nav__link-href">Contact</a>
-            </div>
+            <a href="bike-selector.html" class="nav__link">Bike Selector</a>
+            <a href="#" class="nav__link">About us</a>
+            <a href="#" class="nav__link">Contact</a>
         </div>
         <div class="nav__cart">
             <img src="assets/img/icons/shopping-cart-solid.svg" alt="Shopping Cart" class="nav__icon">
@@ -37,13 +34,11 @@
 
     <header class="bike-selector-header">
         <div class="bike-selector-header__heading-box">
-            <h1 class="heading-primary">
-                <div class="bike-selector-header__heading">Let's find</div>
-                <div class="bike-selector-header__heading">your new bike!</div>
-            </h1>
-            <p class="bike-selector-header__paragraph">Not sure what bike you need?</p>
-            <p class="bike-selector-header__paragraph">With this easy tool we'll find your
-                perfect bike.</p>
+            <h1 class="heading-primary heading--bg" id="bike-selector-heading">Find your new
+                bike!</h1>
+            <p class="bike-selector-header__paragraph"><span class="heading--bg">Not sure what bike you need?</span>
+                <span class="heading--bg">With this easy tool we'll find your
+                    perfect bike.</span></p>
             <a href="#bike-selector-content" class="btn-open">Start</a>
         </div>
     </header>
@@ -51,7 +46,7 @@
     <main class="bike-selector-content" id="bike-selector-content">
         <form action="#" class="bike-form" name="bikeSelector">
             <section class="bike-form__section" id="bike-gender">
-                <h2 class="heading-secondary">First up – who's using the bike?</h2>
+                <h3 class="heading-tertiary">First up – who's using the bike?</h3>
                 <fieldset>
                     <input type="radio" name="bike-gender" id="bike-gender-male" value="male"
                         class="bike-form__input-radio">
@@ -65,7 +60,7 @@
                 </div>
             </section>
             <section class="bike-form__section" id="bike-usage">
-                <h2 class="heading-secondary">How will you use the bike?</h2>
+                <h3 class="heading-tertiary">How will you use the bike?</h3>
                 <fieldset>
                     <input type="radio" name="bike-usage" id="bike-usage-commute" value="commute"
                         class="bike-form__input-radio">
@@ -83,7 +78,7 @@
                 </div>
             </section>
             <section class="bike-form__section" id="bike-place">
-                <h2 class="heading-secondary">Where do you plan to use your bike?</h2>
+                <h3 class="heading-tertiary">Where do you plan to use your bike?</h3>
                 <fieldset>
                     <input type="radio" name="bike-place" id="bike-place-city" value="city"
                         class="bike-form__input-radio">
@@ -101,7 +96,7 @@
                 </div>
             </section>
             <section class="bike-form__section" id="bike-style">
-                <h2 class="heading-secondary">Lastly – what kind of style do you prefer?</h2>
+                <h2 class="heading-tertiary">Lastly – what kind of style do you prefer?</h2>
                 <fieldset>
                     <input type="radio" name="bike-style" id="bike-style-classic" value="classic"
                         class="bike-form__input-radio">
@@ -125,6 +120,9 @@
     <footer class="footer">
         <div class="footer__about footer__col">
             <h3 class="heading-tertiary">About</h3>
+            <p>Urban Bike Shop is a online shop providing great bikes for ordinary people. Having difficult find the
+                right bike for you? Use our Bike selector to find your perfect bike – easy and simple! Note that this
+                site is a school project and not a real website. Have a nice day.</p>
         </div>
         <div class="footer__social footer__col">
             <h3 class="heading-tertiary">Social</h3>
@@ -138,7 +136,8 @@
         <div class="footer__credits footer__col">
             <h3 class="heading-tertiary">Credits</h3>
             <p>Imagery on this site from <a href="https://stalhasten.se" class="links--paragraph">Stålhästen</a>, <a
-                    href="https://unsplash.com" class="links--paragraph">Unsplash</a>.</p>
+                    href="https://unsplash.com" class="links--paragraph">Unsplash</a> and <a
+                    href="https://www.pexels.com" class="links--paragraph">Pexels</a>.</p>
             <p>Icons from <a href="https://fontawesome.com/license" class="links--paragraph">Font Awesome</a>.</p>
         </div>
         <div class="footer__info">
@@ -151,6 +150,7 @@
     <!-- Javascript files -->
     <script src="scripts/loadProducts.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/menu.js"></script>
 
 </body>
 
