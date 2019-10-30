@@ -10,27 +10,32 @@
     align-items: center;
 
     &__heading-box {
-        margin-left: 10rem;
+        margin: 0 10rem;
         display: flex;
         flex-direction: column;
-    }
 
-    &__heading {
-        background-color: $white;
-        padding: .5rem 1rem;
-        margin-bottom: .5rem;
-        width: fit-content;
+        @include respond(phone) { 
+            margin-left: 0;
+            margin: 0 1rem;
+        }
     }
 
     &__paragraph {
-        background-color: $white;
-        padding: .5rem 1rem;
-        margin-bottom: .5rem;
-        width: fit-content;
+       
         font-size: 2rem;
+
+        @include respond(phone) { 
+            font-size: 2.3rem;
+        }
     }
 
 }
+
+.bike-selector-content {
+    max-width: 120rem;
+    margin: 5rem auto 0;
+}
+
 
 .bike-form {
     &__section {
@@ -39,6 +44,10 @@
         justify-content: space-evenly;
         height: calc(100vh - 7rem);
         margin-top: 7rem;
+
+        @include respond(phone){
+            padding: 0 2rem;
+        }
     }
 
     fieldset {

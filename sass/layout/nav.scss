@@ -1,5 +1,4 @@
 .nav {
-    height: 7rem;
     width: 100%;
 
     top: 0;
@@ -17,13 +16,23 @@
     justify-content: space-between;
     align-items: center;
 
+    @include respond(tab-port){
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+
     &__logo-group {
         width: 20%;
+        height: 7rem;
+
+        @include respond(tab-port){
+            order: 2;
+        }
     }
 
     &__logo {
         height: 3rem;
-        margin: auto 0;
+        margin: 2rem 0;
     }
 
     &__link-group {
@@ -31,6 +40,20 @@
         flex-direction: row;
         border-left: $border-black;
         border-right: $border-black;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            display: none;
+            width: 100%;
+            background-color: $white;
+            border-left: none;
+            border-right: none;
+            order: 4;
+        }
+    }
+
+    .nav-open ~ &__link-group {
+        display: flex;
     }
 
     &__link {
@@ -42,13 +65,21 @@
         width: 15rem;
         padding: 0 2rem;
 
+        @include respond(tab-port){
+            width: 100%;
+        }
+
         &:not(:last-child) {
             border-right: $border-black;
+
+            @include respond(tab-port){
+                border-right: 0;
+                border-bottom: $border-black;
+            }
         }
 
         &--active {
             background-color: $grey;
-            border-bottom: $border-black;
         }
 
     }
@@ -64,10 +95,59 @@
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
+
+        @include respond(tab-port){
+            width: auto;
+            order: 3;
+        }
     }
 
     &__icon {
         width: $default-font-size;
         margin-right: .5rem;
+    }
+}
+
+.nav__hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+    position: relative;
+    cursor: pointer;
+
+    order: 1;
+
+    @include respond(tab-port){
+        display: inline-block;
+    }
+
+    &-inner {
+        top: 50%;
+        position:absolute;
+    }
+
+    &-inner::before, &-inner::after {
+        width: 2rem;
+        height: 1px;
+        content: "";
+        position: absolute;
+        display: block;
+        background-color: $black;
+    }
+
+    &-inner::before {
+        transform: translateY(-.5rem);
+    }
+
+    &-inner::after {
+        transform: translateY(.5rem);
+    }
+
+    .nav-open &-inner::before  {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .nav-open &-inner::after  {
+        transform: translateY(0px) rotate(-45deg);
     }
 }

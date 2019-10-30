@@ -8,12 +8,22 @@
     font-size: $default-font-size;
     font-weight: 400;
 
+     @include respond(phone) { 
+        width: 100%;
+        margin: 0 2rem 3rem;
+        font-size: 2rem;
+    }
+
     &__image-box {
         display: flex;
         justify-content: flex-end;
 
         height: 38rem;
         padding: 0 1rem 3rem;
+
+        @include respond(phone) { 
+            height: 38rem;
+        }
     }
 
     &__image {
@@ -38,6 +48,7 @@
         border-bottom: $border-black;
 
         text-transform: capitalize;
+        font-weight: inherit;
     }
 
     &__info {

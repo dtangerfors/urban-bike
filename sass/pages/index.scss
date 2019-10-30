@@ -11,6 +11,11 @@
 
     &__heading {
         margin-left: 10rem;
+
+        @include respond(phone) {
+            margin-left: 0rem;
+            margin: 0 2rem;
+        }
     }
 }
 
