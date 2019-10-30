@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i&display=swap" rel="stylesheet">
 
-    <!-- Javascript files -->
 
-    <script src="scripts/loadProducts.js"></script>
 
 </head>
 
@@ -24,16 +22,13 @@
         <div class="nav__logo-group">
             <a href="index.html"><img src="assets/img/urban-bike-logo.svg" alt="Urban Bike Shop" class="nav__logo"></a>
         </div>
+        <div class="nav__hamburger" id="mobile-menu">
+            <div class="nav__hamburger-inner"></div>
+        </div>
         <div class="nav__link-group">
-            <div class="nav__link">
-                <a href="bike-selector.html" class="nav__link-href">Bike Selector</a>
-            </div>
-            <div class="nav__link">
-                <a href="#" class="nav__link-href">About us</a>
-            </div>
-            <div class="nav__link">
-                <a href="#" class="nav__link-href">Contact</a>
-            </div>
+            <a href="bike-selector.html" class="nav__link">Bike Selector</a>
+            <a href="#" class="nav__link">About us</a>
+            <a href="#" class="nav__link">Contact</a>
         </div>
         <div class="nav__cart">
             <img src="assets/img/icons/shopping-cart-solid.svg" alt="Shopping Cart" class="nav__icon">
@@ -42,8 +37,8 @@
     </nav>
     <header class="index-header">
         <div class="index-header__heading">
-            <h1 class="heading-primary">We sell bikes.<br />Really good bikes.</h1>
-            <h3 class="heading-tertiary">Urban bike shop – Really good bikes for ordinary people.</h3>
+            <h1 class="heading-primary heading--bg">Urban bike shop.<br />We sell bikes.</h1>
+            <h3 class="heading-tertiary heading--bg">Really good bikes for ordinary people.</h3>
         </div>
     </header>
     <main class="index-main-content">
@@ -56,6 +51,9 @@
     <footer class="footer">
         <div class="footer__about footer__col">
             <h3 class="heading-tertiary">About</h3>
+            <p>Urban Bike Shop is a online shop providing great bikes for ordinary people. Having difficult find the
+                right bike for you? Use our Bike selector to find your perfect bike – easy and simple! Note that this
+                site is a school project and not a real website. Have a nice day.</p>
         </div>
         <div class="footer__social footer__col">
             <h3 class="heading-tertiary">Social</h3>
@@ -79,6 +77,11 @@
             </p>
         </div>
     </footer>
+
+    <!-- Javascript files -->
+    <script src="scripts/loadProducts.js"></script>
+    <script src="scripts/menu.js"></script>
+
 </body>
 
 </html>
