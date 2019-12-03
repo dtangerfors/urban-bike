@@ -22,7 +22,7 @@
         padding: 0 1rem 3rem;
 
         @include respond(phone) { 
-            height: 38rem;
+            height: 50rem;
         }
     }
 
@@ -32,8 +32,8 @@
         width: 100%;
 
         &:hover {
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
     }
 
     &__details {
