@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:5500/scripts/products.json";
+const url = "/scripts/products.json";
 
 // Template for products
 function articleTemplate(article) {
@@ -23,7 +23,7 @@ fetch(url)
     .then((resp) => resp.json()) // Transform the responsed data into json
     .then(function (data) {
         let articles = data.products;
-        return document.querySelector("#index-products").innerHTML = articles.map(articleTemplate).join("")
+        return document.querySelector("#index-products") ? document.querySelector("#index-products").innerHTML = articles.map(articleTemplate).join("") : null;
     })
 
     .catch(function (error) {
