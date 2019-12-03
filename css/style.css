@@ -76,6 +76,9 @@ body {
   width: fit-content;
   display: block; }
 
+.paragraph-lead {
+  font-size: 1.5rem; }
+
 .links {
   color: #000;
   text-decoration: none; }
@@ -146,7 +149,7 @@ body {
     padding: 0 1rem 3rem; }
     @media only screen and (max-width: 37.5em) {
       .product-card__image-box {
-        height: 38rem; } }
+        height: 50rem; } }
   .product-card__image {
     align-self: flex-end;
     width: 100%; }
@@ -272,6 +275,14 @@ body {
         border-left: none;
         border-right: none;
         order: 4; } }
+  .nav__li {
+    list-style-type: none; }
+    .nav__li:not(:last-child) {
+      border-right: 1px solid black; }
+      @media only screen and (max-width: 56.25em) {
+        .nav__li:not(:last-child) {
+          border-right: 0;
+          border-bottom: 1px solid black; } }
   .nav-open ~ .nav__link-group {
     display: flex; }
   .nav__link {
@@ -289,12 +300,6 @@ body {
     @media only screen and (max-width: 56.25em) {
       .nav__link {
         width: 100%; } }
-    .nav__link:not(:last-child) {
-      border-right: 1px solid black; }
-      @media only screen and (max-width: 56.25em) {
-        .nav__link:not(:last-child) {
-          border-right: 0;
-          border-bottom: 1px solid black; } }
     .nav__link--active {
       background-color: #e6e6e6; }
   .nav__link-href {
@@ -399,6 +404,51 @@ body {
   margin-left: .5rem; }
   .bike-form__label:not(:last-child) {
     margin-right: 2rem; }
+
+.contact {
+  margin-top: 7rem;
+  padding: 3rem;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .contact__info {
+    width: 50%; }
+  .contact__form-section {
+    width: 50%; }
+
+.contact .heading-primary {
+  margin-bottom: 2rem; }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+  .contact-form__input {
+    -webkit-appearance: none;
+    border: 1px solid black; }
+  .contact-form__textarea {
+    -webkit-appearance: none;
+    border: 1px solid black; }
+  .contact-form__submit {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    height: 5rem;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    color: #000;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none; }
+    .contact-form__submit:hover {
+      background-color: #000;
+      color: #fff; }
+  .contact-form__message {
+    margin-top: 1rem; }
 
 .index-header {
   height: 50rem;
