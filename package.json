@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/dtangerfors/urban-bike#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
